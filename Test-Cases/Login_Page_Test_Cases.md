@@ -10,8 +10,10 @@ Verify that the system displays an error when the username/email field is left e
 2. Leave the username/email field empty.  
 3. Enter any password in the password field.  
 4. Click the Login button.
+
 **Expected Result:**  
-- The system should display an error message asking the user to enter an email or mobile number.
+The system should prevent login and display a generic error message without revealing account existence, for security reasons.
+
 **Actual Result:**
 Error message "The email address or mobile number you entered isn't connected to an account" is displayed below the email field.
 
@@ -30,8 +32,10 @@ Verify that the system displays an error when the password field is left empty d
 2. Enter the valid email id in the email or phone number field.
 3. Leave the password field empty.  
 4. Click the Login button.
+
 **Expected Result:**  
-- The system should display an error message asking the user to enter a valid password.
+The system should prevent login and display a generic authentication error message without specifying whether the password is missing or incorrect.
+
 **Actual Result:**
 Error message "The password you've entered is incorrect. Forgot password?" is displayed below the password field.
 
