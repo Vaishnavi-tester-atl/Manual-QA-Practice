@@ -17,5 +17,27 @@ Error message "The email address or mobile number you entered isn't connected to
 
 **Status:**
 Pass
+----
+
+## Test Case 2: Login with empty password
+**Objective:**  
+Verify that the system displays an error when the password field is left empty during login.
+**Preconditions:**  
+- User is on the Facebook login page.
+- User has access to a valid email id.
+**Test Steps:**  
+1. Open the Facebook login page.  
+2. Enter the valid email id in the email or phone number field.
+3. Leave the password field empty.  
+4. Click the Login button.
+**Expected Result:**  
+- The system should display an error message asking the user to enter a valid password.
+**Actual Result:**
+Error message "The password you've entered is incorrect. Forgot password?" is displayed below the password field.
+
+**Status:**
+Pass
+
+
 
 
