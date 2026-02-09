@@ -12,11 +12,10 @@ Verify that the system displays an error when the username/email field is left e
 4. Click the Login button.
 **Expected Result:**  
 - The system should display an error message asking the user to enter an email or mobile number.
-**Actual Result:**  
-(To be filled after execution)
-**Status:**  
-(To be marked as Pass/Fail after execution)
+**Actual Result:**
+Error message "The email address or mobile number you entered isn't connected to an account" is displayed below the email field.
 
-**Notes:**  
-- Include screenshots if possible when executing manually.
-- Reference any bug ID if found during execution.
+**Status:**
+Pass
+
+
